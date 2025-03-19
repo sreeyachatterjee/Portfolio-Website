@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> This is Sreeya Chatterjee </title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="container">
+        <h1>Sreeya Chatterjee</h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero">
+    <div class="container">
+        <h2>Hello, I'm <span>Sreeya Chatterjee</span></h2>
+        <p>A passionate Software Developer</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>
+            I'm a passionate software developer with a knack for solving complex problems and building efficient solutions. I have experience working with Python, Java, C/C++, JavaScript, and MATLAB and have applied my skills to projects ranging from network simulations to real-time IoT systems.Some of my notable projects include a NetRoute Simulator using Dijkstra's algorithm for shortest path calculation, an IoT-based Smart Agriculture System with real-time monitoring and environmental control, and a MATLAB syntax validator built with Python and PLY. I’ve also designed a state-machine-based Traffic Light Controller in Verilog, tested with waveform analysis.
+In addition to technical skills, I’ve honed my leadership and team management abilities as the Head of the Theater Club at PES University, where I led a team of 20+ members to organize multiple university-wide events. I'm driven by curiosity, creative problem-solving, and the desire to make an impact through technology.
+        </p>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <div class="container">
+        <h2>My Projects</h2>
+
+        <div class="project-card">
+            <h3>NetRoute Simulator</h3>
+            <p>Client-server model in C using Dijkstra's algorithm for shortest paths.</p>
+            <a href="https://github.com/sreeyachatterjee/netroute-simulator" target="_blank">View Code →</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Smart Agriculture System</h3>
+            <p>IoT-based system using ESP32 and sensors for environmental monitoring and greenhouse management.</p>
+            <a href="https://github.com/sreeyachatterjee/Smart-Agriculture-System-using-IoT" target="_blank">View Code →</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Syntax Validation for MATLAB</h3>
+            <p>Python-based tool using PLY for real-time MATLAB syntax validation.</p>
+            <a href="https://github.com/sreeyachatterjee/Syntax-Validation-for-MATLAB" target="_blank">View Code →</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Traffic Light Controller Simulation</h3>
+            <p>Verilog-based state machine for multiple intersections with waveform analysis.</p>
+            <a href="https://github.com/sreeyachatterjee/Traffic-Light-Controller-Simulation" target="_blank">View Code →</a>
+        </div>
+        <div class="project-card">
+            <h3>Hangman Game</h3>
+            <p>Interactive Hangman game built in C with a console-based interface.</p>
+            <a href="https://github.com/sreeyachatterjee/hangman" target="_blank">View Code →</a>
+        </div>
+        
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Sreeya Chatterjee" required />
+            <input type="email" id="email" placeholder="sreeya.chatterjee10@gmail.com" required />
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="form-status"></p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Sreeya Chatterjee. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
