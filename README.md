@@ -26,7 +26,7 @@ portfolio-website/ │── index.html # Main HTML file │── styles.css # 
 ## 🚀 Deployment Instructions
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/portfolio-website.git
+git clone https://github.com/sreeyachatterjee/portfolio-website.git
 cd portfolio-website
 ```
 2. Open the HTML file
@@ -39,4 +39,10 @@ Go to Settings → Pages.
 Set the branch to main and folder to / (root).
 Your site will be live at:
 ```
-https://yourusername.github.io/portfolio-website/
+https://sreeyachatterjee.github.io/portfolio-website/
+```
+📧 Contact
+For any questions or suggestions, reach out to me at your.email@example.com
+
+🔗 GitHub Repository: https://github.com/sreeyachatterjee/portfolio-website
+🚀 Developed by: Sreeya Chatterjee
