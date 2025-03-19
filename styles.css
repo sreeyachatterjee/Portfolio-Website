@@ -1,16 +1,16 @@
 /* General Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #333;
+    color: #b4a7d6;
     background-color: #f4f4f9;
 }
 
 /* Navbar */
 nav {
-    background-color: #1c1c1c;
+    background-color: #6a329f;
     padding: 12px 0;
     position: fixed;
     width: 100%;
