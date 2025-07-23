@@ -42,7 +42,7 @@ Your site will be live at:
 https://sreeyachatterjee.github.io/portfolio-website/
 ```
 📧 Contact
-For any questions or suggestions, reach out to me at your.email@example.com
+For any questions or suggestions, reach out to me at sreeya.chatterjee10@gmail.com
 
 🔗 GitHub Repository: https://github.com/sreeyachatterjee/portfolio-website
 🚀 Developed by: Sreeya Chatterjee
