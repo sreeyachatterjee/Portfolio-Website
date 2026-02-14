@@ -1,6 +1,6 @@
 const texts = [
   "AI & Blockchain Enthusiast",
-  "Full‑Stack Developer",
+  "Full-Stack Developer",
   "Cloud & IoT Engineer"
 ];
 
