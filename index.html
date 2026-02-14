@@ -26,48 +26,104 @@
   <button onclick="scrollToSection('projects')">View My Work</button>
 </section>
 
-<section id="about" class="section fade">
-  <h2>About Me</h2>
-  <p>
-    I'm a Computer Science student passionate about AI, Cloud, Blockchain,
-    and full-stack development. I love building interactive systems.
-  </p>
+<!-- ABOUT -->
+<section id="about" class="section fade about">
+  <img src="assets/me.jpg" alt="Sreeya">
+  <div>
+    <h2>About Me</h2>
+    <p>
+      I’m a Computer Science student who loves building things at the intersection
+      of <strong>AI, Cloud, Blockchain, and real-world impact</strong>.
+    </p>
+    <p>
+      I enjoy turning complex ideas into clean, interactive systems — whether
+      that’s an AI-powered assistant, an IoT solution, or a full-stack platform.
+    </p>
+    <p>
+      When I’m not coding, I’m probably exploring hackathon ideas or refining UI
+      until it *feels right*.
+    </p>
+  </div>
 </section>
 
+<!-- PROJECTS -->
 <section id="projects" class="section fade">
   <h2>Projects</h2>
+
   <div class="project-grid">
-    <div class="project-card">
+
+    <div class="project-card"
+      onclick="window.open('https://github.com/sreeyachatterjee/Smart-E-Learning-Platform')">
+      <h3>Smart E-Learning Platform</h3>
+      <p>
+        An interactive learning platform designed to enhance digital education
+        through structured content delivery and user-friendly design.
+      </p>
+      <span>View on GitHub →</span>
+    </div>
+
+    <div class="project-card"
+      onclick="window.open('https://github.com/sreeyachatterjee/Smart-Agriculture-System-using-IoT')">
+      <h3>Smart Agriculture System (IoT)</h3>
+      <p>
+        IoT-based greenhouse automation using ESP32 for real-time monitoring and
+        intelligent environmental control.
+      </p>
+      <span>View on GitHub →</span>
+    </div>
+
+    <div class="project-card"
+      onclick="window.open('https://github.com/sreeyachatterjee/LoanSense')">
       <h3>LoanSense</h3>
-      <p>AI assistant for loan guidance (LLM based).</p>
+      <p>
+        An AI-powered assistant that provides multilingual loan guidance and
+        eligibility insights using LLMs.
+      </p>
+      <span>View on GitHub →</span>
     </div>
-    <div class="project-card">
-      <h3>Carbon Credits Platform</h3>
-      <p>Blockchain-based trading system.</p>
-    </div>
-    <div class="project-card">
-      <h3>Smart Agriculture IoT</h3>
-      <p>ESP32-based greenhouse automation.</p>
-    </div>
+
   </div>
 </section>
 
+<!-- SKILLS -->
 <section id="skills" class="section fade">
   <h2>Skills</h2>
-  <div class="skills">
-    <span>Java</span>
-    <span>Python</span>
-    <span>JavaScript</span>
-    <span>Docker</span>
-    <span>Blockchain</span>
-    <span>AI / ML</span>
+
+  <div class="skills-grid">
+    <div class="skill-card">
+      <h4>Languages</h4>
+      <p>Java · Python · JavaScript · C</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>Frameworks & Tools</h4>
+      <p>Docker · Git · Node.js · Linux</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>Domains</h4>
+      <p>AI / ML · Blockchain · Cloud · IoT</p>
+    </div>
   </div>
 </section>
 
+<!-- CONTACT -->
 <section id="contact" class="section fade">
-  <h2>Contact</h2>
-  <p>Email: sreeyachatterjee@gmail.com</p>
-  <p>GitHub: github.com/sreeyachatterjee</p>
+  <h2>Contact Me</h2>
+
+  <form
+    action="https://formsubmit.co/sreeyachatterjee@gmail.com"
+    method="POST"
+    class="contact-form">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
+
+    <input type="hidden" name="_captcha" value="false">
+  </form>
 </section>
 
 <footer>

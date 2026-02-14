@@ -1,46 +1,31 @@
-const texts = [
-  "AI & Blockchain Enthusiast",
-  "Full-Stack Developer",
-  "Cloud & IoT Engineer"
-];
-
+const text = ["CS Student", "AI Enthusiast", "Full-Stack Developer"];
 let index = 0;
 let char = 0;
-const typingElement = document.querySelector('.typing');
 
-function type() {
-  if (char < texts[index].length) {
-    typingElement.textContent += texts[index].charAt(char);
+function typeEffect() {
+  if (char < text[index].length) {
+    document.querySelector(".typing").innerHTML += text[index][char];
     char++;
-    setTimeout(type, 100);
+    setTimeout(typeEffect, 100);
   } else {
-    setTimeout(erase, 2000);
+    setTimeout(eraseEffect, 2000);
   }
 }
 
-function erase() {
+function eraseEffect() {
   if (char > 0) {
-    typingElement.textContent = texts[index].substring(0, char - 1);
+    document.querySelector(".typing").innerHTML =
+      text[index].substring(0, char - 1);
     char--;
-    setTimeout(erase, 50);
+    setTimeout(eraseEffect, 50);
   } else {
-    index = (index + 1) % texts.length;
-    setTimeout(type, 500);
+    index = (index + 1) % text.length;
+    setTimeout(typeEffect, 500);
   }
 }
 
-document.addEventListener('DOMContentLoaded', type);
+document.addEventListener("DOMContentLoaded", typeEffect);
 
 function scrollToSection(id) {
-  document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  document.getElementById(id).scrollIntoView({ behavior: "smooth" });
 }
-
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('show');
-    }
-  });
-});
-
-document.querySelectorAll('.fade').forEach(el => observer.observe(el));
